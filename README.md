@@ -11,8 +11,8 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 1. Import the necessary packages using import statement.
 2. Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
 3. Import KMeans and use for loop to cluster the data.
-4.Predict the cluster and plot data graphs.
-5.Print the outputs and end the program
+4. Predict the cluster and plot data graphs.
+5. Print the outputs and end the program
 
 ## Program:
 ```
@@ -23,7 +23,7 @@ RegisterNumber: 212222040174
 
 import pandas as pd
 import matplotlib.pyplot as plt
-data=pd.read_csv('/content/Mall_Customers (1).csv')
+data=pd.read_csv('/content/Mall_Customers.csv')
 
 data.head()
 
